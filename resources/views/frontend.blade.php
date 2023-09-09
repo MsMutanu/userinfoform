@@ -161,12 +161,15 @@
     <div class="container">
         
 
-        <div class="modal-content">
+        
             @if(isset($name))
+            <!-- Thank you modal -->
+            <div class="modal-content">
                 <div class="alert alert-success mt-3">
                     Thank you, {{ $name }}!
                     
                 </div>
+            </div>
             @else
             <div class="login-box">
                 <h2>User Information Form</h2>
@@ -187,7 +190,7 @@
                 </form>
             </div>
         @endif
-    </div>
+    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
@@ -200,6 +203,6 @@
                 $('.modal').addClass('show-modal');
             }
 
-            
+        }   
 </body>
 </html>
