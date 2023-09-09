@@ -70,6 +70,9 @@ Follow these instructions to get the project up and running on your local machin
 #### Back-End Task (To-Do List API)
 1. The Back-End task exposes a RESTful API for a to-do list application.
 
+#### Database
+My database is in public/db directory
+
 2. API endpoints:
 
 - Create a new to-do item: POST http://localhost:8000/api/todos
